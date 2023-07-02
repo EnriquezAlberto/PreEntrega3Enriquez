@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 *
   {
     box-sizing: border-box;
@@ -10,9 +12,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #212121;
+    background-color: $colorfondo;
     padding: 30px;
-    color: #fafafa;
+    color: $colortexto;
 
     ul {
         list-style: none;
@@ -28,7 +30,61 @@ a {
 
 a:hover {
    
-    color: #3e89d4;
+    color: $colorhover;
 }
 
+h1:hover {
+  color: $colorhover;
+  cursor: pointer;
+}
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  .item {
+    flex: 0 0 50%;
+    padding: 10px;
+    box-sizing: border-box;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .item{
+      flex: 0 0 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  nav{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+  flex-direction: column;
+ 
+ a{
+  font-size: 9px;
+  
+ }
+
+ ul {
+  display: flex;
+  flex-direction: column;
+ }
+ 
+  }
+}
+
+button {
+  background-color: #3e89d4;
+  padding: 4px;
+  text-decoration: none;
+  border-radius: 4px;
 }

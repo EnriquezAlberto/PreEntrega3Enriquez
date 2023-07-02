@@ -25,5 +25,50 @@ nav a {
 nav a:hover {
   color: #3e89d4;
 }
+nav h1:hover {
+  color: #3e89d4;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .item {
+  flex: 0 0 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.container .item img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .container .item {
+    flex: 0 0 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  nav a {
+    font-size: 9px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+button {
+  background-color: #3e89d4;
+  padding: 4px;
+  text-decoration: none;
+  border-radius: 4px;
+}
 
 /*# sourceMappingURL=style.css.map */
