@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #212121;
+  padding: 30px;
+  color: #fafafa;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+nav a:hover {
+  color: #3e89d4;
+}
+
+/*# sourceMappingURL=style.css.map */
