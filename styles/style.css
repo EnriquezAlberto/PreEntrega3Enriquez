@@ -6,6 +6,7 @@
 
 p {
   margin: 10px 0;
+  text-align: center;
 }
 
 h3 {
@@ -61,7 +62,7 @@ button {
   background-color: rgb(6, 5, 9);
   width: 80%;
   padding: 8px;
-  color: white;
+  color: #fafafa;
   border-radius: 10px;
   justify-content: center;
 }
@@ -82,7 +83,7 @@ a {
 
 .grupo-h {
   margin: 0px 0;
-  color: white;
+  color: #fafafa;
   background: #212121;
   padding: 102px;
 }
@@ -134,7 +135,7 @@ form input {
 
 footer {
   background-color: #212121;
-  color: white;
+  color: #fafafa;
   justify-content: center;
   align-items: center;
   padding: 45px;
@@ -163,7 +164,7 @@ span {
 }
 
 .cuadro {
-  color: white;
+  color: #fafafa;
   background-color: #292929;
   padding: 45px;
   margin: 30px 0;
@@ -202,19 +203,23 @@ body {
     height: auto;
   }
 }
-.faq-section {
+.contenedor {
+  margin-top: 290px;
+}
+.contenedor .faq-section {
   text-align: center;
 }
-.faq-section .faq {
+.contenedor .faq-section .faq {
   margin-top: 20px;
 }
-.faq-section .pregunta {
+.contenedor .faq-section .pregunta {
   margin-bottom: 20px;
+  text-align: center;
 }
-.faq-section h3 {
+.contenedor .faq-section h3 {
   font-weight: bold;
 }
-.faq-section p {
+.contenedor .faq-section p {
   margin-top: 10px;
 }
 
