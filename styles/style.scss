@@ -25,9 +25,20 @@ a:hover {
 
 .nav {
   background-color: aqua;
+  color: #212121;
   padding: 10px;
   justify-content: center;
   color: $colorfondo;
+
+  .nav-link {
+    color: $colorfondo;
+  }
+
+ a {
+  color: $colorfondo;
+ }
+
+  
 }
 
 .grupo-h {
@@ -93,6 +104,8 @@ a {
   display: flex;
   align-items: center;
   margin-right: auto;
+  
+
 }
 
 .col-sm-6 {
@@ -130,6 +143,8 @@ form {
     width: 30%;
     padding: 15px;
     border-radius: 5px;
+    margin: 0;
+   
   }
 }
 
