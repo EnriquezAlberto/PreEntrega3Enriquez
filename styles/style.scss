@@ -19,7 +19,7 @@ a:hover {
 }
 
 .nav {
-  background-color: $colorsecundario;
+  background-color:$colorsecundario;
   color: $colorfondo;
   padding: 10px;
   justify-content: center;
@@ -29,9 +29,9 @@ a:hover {
     color: $colorfondo;
   }
 
-  a {
-    color: $colorfondo;
-  }
+ a {
+  color: $colorfondo;
+ }
 }
 
 .grupo-h {
@@ -103,10 +103,10 @@ a {
   font-weight: 700px;
 }
 
-.col-sm-4:hover {
+ .col-sm-4:hover {
   transform: translateY(-13px);
   cursor: pointer;
-}
+ }
 
 form {
   display: flex;
@@ -161,15 +161,14 @@ span {
   @include center;
   margin: 25px 0;
   font-size: 22px;
-
+ 
   p {
     margin: 20px 0;
   }
 }
 
 .cuadro {
-  h1,
-  h2 {
+  h1, h2 {
     font-weight: 800px;
     text-transform: uppercase;
     margin: 30px 0;
@@ -185,9 +184,7 @@ body {
 }
 
 @media (max-width: 767px) {
-  html,
-  nav,
-  body {
+  html   , nav, body {
     overflow-x: hidden;
     width: 100%;
     margin: 0;
@@ -208,8 +205,7 @@ body {
 }
 
 @media (max-width: 2560px) {
-  img,
-  button {
+  img, button {
     width: 100%;
     height: auto;
   }
@@ -218,22 +214,23 @@ body {
 .contenedor {
   margin-top: 290px;
 
-  .faq-section {
-    @include center;
-
-    .faq {
-      margin-top: 20px;
-    }
-    .pregunta {
-      margin-bottom: 20px;
-      @include center;
-    }
-
-    h3 {
-      font-weight: bold;
-    }
-    p {
-      margin-top: 10px;
-    }
-  }
+.faq-section{
+  @include center;;
+  
+  .faq{
+  margin-top: 20px;
 }
+.pregunta {
+  margin-bottom: 20px;
+  @include center;
+}
+
+
+
+  h3{
+    font-weight: bold;
+  }
+  p{
+    margin-top: 10px;
+}
+} }
