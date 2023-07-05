@@ -47,9 +47,10 @@ a:hover {
 h1,
 h2 {
   margin: 15px 0;
-  display: flex;
   text-align: center;
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -68,6 +69,7 @@ button {
 }
 
 a {
+  display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -90,6 +92,7 @@ a {
 
 .marca {
   display: flex;
+  justify-content: center;
   align-items: center;
   margin-right: auto;
 }
@@ -152,12 +155,13 @@ span {
 
 .sobre-nosotros {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   font-weight: 700px;
   text-align: center;
   margin: 25px 0;
   font-size: 22px;
-  align-items: center;
 }
 .sobre-nosotros p {
   margin: 20px 0;
@@ -165,7 +169,7 @@ span {
 
 .cuadro {
   color: #fafafa;
-  background-color: #292929;
+  background-color: #212121;
   padding: 45px;
   margin: 30px 0;
 }
